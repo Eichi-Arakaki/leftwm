@@ -6,6 +6,7 @@ $HOME/.fehbg           &
 dunst                  &
 xset r rate 300 100    & # only for x11
 $script_dir/batnotify  &
+setxkbmap us
 
 
 # brightnessctl

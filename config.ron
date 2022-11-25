@@ -95,9 +95,24 @@
         (command: IncreaseMainWidth, value: "1", modifier: ["modkey", "Shift"], key: "l"),
         (command: DecreaseMainWidth, value: "1", modifier: ["modkey", "Shift"], key: "h"),
 
+        // Executes Rofi
         (command: Execute, value: "rofi -show drun", modifier: ["modkey"], key: "m"),
+        // Opens terminal
         (command: Execute, value: "kitty", modifier: ["modkey"], key: "Return"),
+        // Takes screenshot
+        (command: Execute, value: "flameshot gui", modifier: ["modkey"], key: "s"),
+        // Shows current date
         (command: Execute, value: "~/.config/leftwm/scripts/timenotify", modifier: ["modkey"], key: "t"),
+
+        // Redshift
+        (command: Execute, value: "redshift -O 4000", modifier: ["modkey"], key: "r"),
+        (command: Execute, value: "redshift -x", modifier: ["modkey", "Shift"], key: "r"),
+    
+        //Open the browser
+        (command: Execute, value: "google-chrome-stable", modifier: ["modkey"], key: "b"),
+
+        // Switch between keyboard layouts (US, ES)
+        (command: Execute, value: "~/.config/leftwm/scripts/xkbmap", modifier: ["modkey"], key: "space"),
     ],
     state_path: None,
 )

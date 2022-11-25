@@ -8,4 +8,25 @@ name = "solarized"
 directory = "/home/eiji/.config/leftwm/themes/solarized"
 version = "0.0.0"
 leftwm_versions = "*"
+current = false
+
+[[repos.themes]]
+name = "gruvbox_light"
+directory = "/home/eiji/.config/leftwm/themes/gruvbox_light"
+version = "0.0.0"
+leftwm_versions = "*"
+current = false
+
+[[repos.themes]]
+name = "deepgreen"
+directory = "/home/eiji/.config/leftwm/themes/deepgreen"
+version = "0.0.0"
+leftwm_versions = "*"
+current = false
+
+[[repos.themes]]
+name = "deepblue"
+directory = "/home/eiji/.config/leftwm/themes/deepblue"
+version = "0.0.0"
+leftwm_versions = "*"
 current = true

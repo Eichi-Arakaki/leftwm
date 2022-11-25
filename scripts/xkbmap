@@ -1,0 +1,11 @@
+#!/bin/bash
+
+cl=$(setxkbmap -query | grep layout | awk '{ print $2 }')
+
+if [ $cl == "us" ]; then
+    setxkbmap es
+    notify-send "Keyboard layout" "Switched to ES." -t 4500
+elif [ $cl == "es" ]; then
+    setxkbmap us
+    notify-send "Keyboard layout" "Switched to US." -t 4500
+fi
