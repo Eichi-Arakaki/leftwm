@@ -1,0 +1,11 @@
+[[repos]]
+url = "localhost"
+name = "LOCAL"
+definitions_version = 1
+
+[[repos.themes]]
+name = "solarized"
+directory = "/home/eiji/.config/leftwm/themes/solarized"
+version = "0.0.0"
+leftwm_versions = "*"
+current = true
