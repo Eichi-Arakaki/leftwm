@@ -11,6 +11,6 @@ ln -s $SCRIPTPATH/down /tmp/leftwm-theme-down
 
 
 #set the theme.toml config
-leftwm-command "LoadTheme $SCRIPTPATH/theme.toml"
+leftwm command "LoadTheme $SCRIPTPATH/theme.ron"
 
 
