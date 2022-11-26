@@ -113,6 +113,16 @@
 
         // Switch between keyboard layouts (US, ES)
         (command: Execute, value: "~/.config/leftwm/scripts/xkbmap", modifier: ["modkey"], key: "space"),
+        
+        // Audio
+        (command: Execute, value: "pactl set-sink-volume @DEFAULT_SINK@ -5%", key: "XF86XK_AudioLowerVolume"),
+        (command: Execute, value: "pactl set-sink-volume @DEFAULT_SINK@ +5%", key: "XF86XK_AudioRaiseVolume"),
+        (command: Execute, value: "pactl set-sink-mute @DEFAULT_SINK@ toggle", key: "XF86XK_AudioMute"),
+
+        // Brightness (brightnessctl)
+        (command: Execute, value: "brightnessctl set +5%", key: "XF86XK_KbdBrightnessUp"),
+        (command: Execute, value: "brightnessctl set 5%-", key: "XF86XK_KbdBrightnessDown"),
+
     ],
     state_path: None,
 )
