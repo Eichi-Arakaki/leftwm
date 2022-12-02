@@ -29,4 +29,11 @@ name = "deepblue"
 directory = "/home/eiji/.config/leftwm/themes/deepblue"
 version = "0.0.0"
 leftwm_versions = "*"
+current = false
+
+[[repos.themes]]
+name = "rose_pine"
+directory = "/home/eiji/.config/leftwm/themes/rose_pine"
+version = "0.0.0"
+leftwm_versions = "*"
 current = true

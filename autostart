@@ -6,6 +6,7 @@ $HOME/.fehbg           &
 dunst                  &
 xset r rate 300 100    & # only for x11
 $script_dir/batnotify  &
+picom                  & # Jonaburg's
 setxkbmap us
 
 
@@ -34,7 +35,7 @@ if [ ${date:0:1} -eq "0" ]; then
  date=${date:1:2}
 fi
 
-case $date in
+case "$date" in
     "0" | "1" | "2" | "3") redshift -O 4100 &;;
     "4")                   redshift -O 4200 &;;
     "5")                   redshift -O 4300 &;;
