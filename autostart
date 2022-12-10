@@ -16,10 +16,8 @@ setxkbmap us
 current_hour=$(date +%H)
 redshift -x
 if [ $current_hour -lt 12 ]; then
-    redshift -O 3000
     brightnessctl set 30%
 else
-    redshift -O 5500
     brightnessctl set 100%
 fi
 
