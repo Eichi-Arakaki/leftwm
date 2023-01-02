@@ -2,7 +2,7 @@
 
 script_dir=$(cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd)
 # Processes
-~/.fehbg               &
+imwheel                &
 udiskie                &
 $HOME/.fehbg           &
 dunst                  &
