@@ -2,13 +2,13 @@
 
 script_dir=$(cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd)
 # Processes
-imwheel                &
 udiskie                &
 $HOME/.fehbg           &
 dunst                  &
 xset r rate 300 100    & # only for x11
 $script_dir/batnotify  &
 picom                  & # Jonaburg's
+imwheel
 setxkbmap us
 
 
